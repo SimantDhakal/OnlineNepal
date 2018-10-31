@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Online Nepal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Source Code Start From Here -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Online News</string>
+    <string name="slide_1_desc">The easiest way to read all national and internation news!</string>
+
+    <string name="slide_2_title">Find Jobs</string>
+    <string name="slide_2_desc">Check out our update and find the appropriate job as you need!</string>
+
+    <string name="slide_3_title">Check Blog</string>
+    <string name="slide_3_desc">Check out the health tips, entertainment, technology news and many more!</string>
+
+    <string name="slide_4_title">Phone Directory</string>
+    <string name="slide_4_desc">Use emergency phonebook to find all important phone numbers and details! </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="nav_sport">Sport</string>
+    <string name="nav_news">News</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_liby">Library</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_job">Jobs</string>
+
+    <string name="lbr2">Welcome to the Library</string>
+    <string name="lbr2info">We added topics and sources to make easy for you to access the features. We added some popular onces to get started!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="explore_desc_help"> We need your helping hands to save some one life. </string>
+    <string name="title_activity_save">Save</string>
+    <string name="section_format">Not working</string>
+    <string name="title_activity_solution">Solution</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_details">ONLINE NEPAL</string>
+    <string name="title_activity_detailsport">ONLINE NEPAL</string>
+    <string name="title_activity_global">ONLINE NEPAL</string>
+    <string name="title_activity_phone">PhoneActivity</string>
+    <string name="title_activity_donarprofile">ONLINE NEPAL</string>
+
+
+    <string name="profiledesc">The associated profile is created anonymously. Our team will detaily study about the registration account. Thus, verified
+    account will be the trusted donar, who have donated maximum three numbers of blood donation.</string>
+    <string name="title_activity_tmarket">ONLINE NEPAL</string>
+    <string name="title_activity_directory">Directory</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_getter">GetterActivity</string>
+
+</resources>

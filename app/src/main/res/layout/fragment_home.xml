@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#efefef"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_menu_heading">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:id="@+id/main_head">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" || "
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="#e8553e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GLOBAL NEWS"
+                android:textColor="#616263"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:fontFamily="serif" />
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="46dp"
+        android:id="@+id/downbar">
+
+        <ListView
+            android:id="@+id/listnews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:divider="#efefef"
+            android:layout_margin="9dp"
+            android:dividerHeight="8dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:foreground="?attr/selectableItemBackground"
+    android:padding="@dimen/activity_padding_horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/letts"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/galleryImage"
+        android:layout_width="@dimen/placeholder_image"
+        android:layout_height="@dimen/placeholder_image"
+        android:layout_marginRight="@dimen/padding_10"
+        android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/galleryImage"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textColor="#484e56"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/galleryImage"
+        android:maxLines="1"
+        android:textColor="@color/chef"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author"
+        android:layout_toRightOf="@id/galleryImage"
+        android:maxLines="1"
+        android:text="2 min ago"
+        android:textColor="@color/timestamp"
+        android:textSize="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/letts"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/galleryImage"
+        android:layout_marginTop="@dimen/activity_padding_horizontal"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:minLines="2"
+        android:textColor="@color/description"
+        android:textSize="@dimen/description" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

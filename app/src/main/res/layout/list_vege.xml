@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/galleryImage"
+                android:layout_width="110dp"
+                android:layout_height="130dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#000"
+                    android:shadowRadius="1.0"
+                    android:textColor="@color/header"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:text="कृषि उपज: "/>
+
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000"
+                android:shadowRadius="1.0"
+                android:textColor="@color/header"
+                android:textSize="15sp"
+                android:layout_marginBottom="5dp"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:text="This is news title"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#000"
+                    android:shadowRadius="1.0"
+                    android:textColor="@color/header"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:text="ईकाइ: "/>
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/description"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:text="This is news description ..."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="न्यूनतम: "
+                    android:textSize="14dp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/least"
+                    android:text="न्यूनतम"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingRight="@dimen/activity_padding_horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:text="अधिकतम: "
+                        android:textSize="14dp"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/maximum"
+                    android:textColor="@color/colorPrimary"
+                    android:text="अधिकतम"
+                    android:textSize="14dp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="औसत: "
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14dp"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/minimum"
+                    android:text="औसत"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14dp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

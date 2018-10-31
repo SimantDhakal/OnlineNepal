@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Global Channel">
+            <menu>
+                <item
+                    android:id="@+id/bbcnews"
+                    android:icon="@drawable/ic_receipt_black_24dp"
+                    android:title="BBC NEWS" />
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_timeline_black_24dp"
+                    android:title="CNN NEWS" />
+                <item
+                    android:id="@+id/jewellery"
+                    android:icon="@drawable/ic_receipt_black_24dp"
+                    android:title="FOX 29 NEWS" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="SPORTS CHANNEL">
+        <menu>
+            <item
+                android:id="@+id/horoscope"
+                android:icon="@drawable/ic_dashboard_black_24dp"
+                android:title="CRIC INFO" />
+            <item
+                android:id="@+id/wallpaper"
+                android:icon="@drawable/ic_wallpaper_black_24dp"
+                android:title="BBC SPORTS" />
+        </menu>
+    </item>
+
+    <item android:title="Emergency Log">
+        <menu>
+            <item
+                android:id="@+id/blood"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="Blood Donar" />
+            <item
+                android:id="@+id/phone"
+                android:icon="@drawable/ic_contact_phone_black_24dp"
+                android:title="Phone Dictionary" />
+        </menu>
+    </item>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/faqs"
+                android:icon="@drawable/ic_description_black_24dp"
+                android:title="FAQs" />
+            <item
+                android:id="@+id/team"
+                android:icon="@drawable/ic_description_black_24dp"
+                android:title="Abnout Us" />
+            <item
+                android:id="@+id/rateus"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Feedbacks" />
+        </menu>
+    </item>
+
+</menu>
